@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    /* background-color: black; */
+*{
+    
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 1);
+    background-color: black;
+}
+.f-1{
+    font-family: "Grey Qo", cursive;
+}
+.col-1{
+    background-color: rgba(230, 83, 60, 1);
+}
+.nav {
+    margin: 0 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav h4{
+    font-size: 1.7em;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+}
+.nav ul {
+    height: 30px;
+    width: 300px;
+    /* border: 2px solid black; */
+    /* margin: auto; */
+    list-style: none;
+    display: flex;
+    /* margin-right: 30px; */
+    justify-content: space-between;
+}
+.nav ul li{
+    
+}
+.hero{
+    margin: 0 190px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+.content{
+    /* margin-right: 90px; */
+    height: auto;
+    width: 370px;
+    /* display: flex;
+    flex-direction: column; */
+    gap: 28px;
+    
+
+}
+
+.content ul{
+    padding: 0 73px 0 23px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+.content ul li button{ 
+    padding: 16px 12px;
+    border: none;
+    border-radius: 30px;
+}
+
+.content h1{
+    font-size: 4em;
+}
+
+.habit{
+    margin: 0 190px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    align-items: center;
+}
+
+.head-habit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-habit{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.chi{
+    border-radius: 100px;
+}
+
+.card-habit{
+    /* margin: 0 190px; */
+    /* width: 70vw; */
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 70vw;
+    
+}
